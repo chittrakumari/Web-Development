@@ -1,2 +1,5 @@
 /* CSS used for making the website responsive and for presentation of the website */
-
+p{
+    color:greenyellow;
+    background-color: hotpink;
+}
