@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Model,Margin and Padding</title>
+    <style>
+
+
+/* we can also define universal selectors by * symbol in braces */
+*{
+    /* box will adjust itself according to width 
+    and not change according to padding*/
+    box-sizing:border-box;
+}
+
+        .container{
+            background-color:burlywood;
+            border:3px solid red;
+
+    /* ### IMPORTANT: border k ander container(element) mai spacing padding */
+    /* border k bhar spacing margin */
+
+
+    /* padding top right bottom left set krne ke lie */
+            
+            padding:19px 23px 4px 28px;  
+            margin: 34px;
+
+height:260px;
+width:267px;
+            /* Agar top&bottom aur left&right ko same padding dena chahte hain
+            then we will do the following syntax 
+            padding:34px 19px;
+
+            same hmlog margin k lie karte hain
+            */
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nihil cumque suscipit reprehenderit beatae consequuntur exercitationem? Blanditiis veniam numquam reiciendis quas explicabo sed, nam corporis nesciunt est illo rem soluta.
+        </p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nihil cumque suscipit reprehenderit beatae consequuntur exercitationem? Blanditiis veniam numquam reiciendis quas explicabo sed, nam corporis nesciunt est illo rem soluta.
+        </p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="thirst">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nihil cumque suscipit reprehenderit beatae consequuntur exercitationem? Blanditiis veniam numquam reiciendis quas explicabo sed, nam corporis nesciunt est illo rem soluta.
+        </p>
+    </div>
+</body>
+</html>
